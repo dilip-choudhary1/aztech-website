@@ -59,7 +59,9 @@ export default function PricingSection() {
       <div className="w-full min-h-fit flex gap-10 flex-grow justify-between mb-10">
         <div className="px-16 w-1/3  ">
         </div>
-        <button className="w-1/3 py-6 text-sm rounded-xl font-medium my-10 bg-purple-300 text-white button-shadow">
+        <button className="w-1/3 py-6 text-sm rounded-xl font-medium my-10 bg-purple-300 text-white button-shadow"
+        onClick={() => window.location.href = 'mailto:aztech.web.info@gmail.com'}
+        >
           Schedule Meet
         </button>
         <div className="px-16 w-1/3 ">

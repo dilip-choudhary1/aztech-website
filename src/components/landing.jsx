@@ -19,9 +19,9 @@ export default function Landing(){
       </p>
 
       <div className="flex flex-col text-white text-[40px] gap-7 absolute left-7 top-1/3 z-60 ">
-        <a href=""><SiGmail /></a>
-        <a href=""><FaLinkedin /></a>
-        <a href=""><AiFillInstagram/></a>
+        <a href="mailto:aztech.web.info@gmail.com" target="_blank"> <SiGmail /></a>
+        <a href="https://www.linkedin.com/company/aztech1/" target="_blank"><FaLinkedin /></a>
+        <a href="https://www.instagram.com/aztech.web/" target="_blank"><AiFillInstagram/></a>
       </div>
     </div>
   )
